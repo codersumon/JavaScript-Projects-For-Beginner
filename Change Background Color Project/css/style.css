@@ -1,11 +1,9 @@
-/* .btn-outline-primary {
-margin-top: 50vh;
-} */
-body{
+body {
     margin: 0;
     padding: 0;
 }
-.btn{
+
+.btn {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -22,8 +20,8 @@ body{
     overflow: hidden;
     margin-top: 50vh;
 }
-.btn:before{
 
+.btn:before {
     content: '';
     position: absolute;
     top: 0;
@@ -34,10 +32,8 @@ body{
     z-index: -1;
     transform: skewX(25deg) skewX(1);
     transition: .5s;
-    
-
 }
-.btn:hover:before{
+
+.btn:hover:before {
     transform: skewX(25deg) scaleX(0);
-    
 }
